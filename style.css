@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+/*!Base Css Start */
+
+* {
+    margin: 0;
+
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*! Base Css End */
+/*? navbar Start */
+.navbar {
+    background-color: black;
+    height: 60px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.logo {
+    color: rgb(255, 70, 15);
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+}
+
+.menu-list-item {
+    cursor: pointer;
+}
+
+.menu-list-item:hover {
+    font-weight: bold;
+
+}
+
+.menu-list-item.active {
+    font-weight: bold;
+}
+
+.profil-container {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.profil-picture {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.profil-text-container {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+}
+
+.toggle {
+    width: 40px;
+    background-color: #fff;
+    position: relative;
+    height: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toggle-icon {
+    color: goldenrod;
+}
+
+.toogle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+}
+
+/*? navbar End */
+/*? sidebar Start */
+.sidebar {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 50px;
+}
+
+/*? sidebar end */
