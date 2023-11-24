@@ -14,3 +14,12 @@ arrows.forEach((arrow, i) => {
         }
     });
 });
+
+/* Dark Mode */
+const ball = document.querySelector(".toggle-ball");
+const items = document.querySelectorAll(
+    ".container,.navbar,.sidebar,.sidebar i,.movie-list-title,.toggle,.toggle-ball,.movie-list-filter select"
+);
+ball.addEventListener("click", function () {
+    items.forEach((item) => item.classList.toggle("active"))
+})
